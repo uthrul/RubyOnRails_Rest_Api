@@ -5,4 +5,5 @@ class ApplicationController < ActionController::API
   respond_to :html
 
     include Response
+    include Authenticate
 end
